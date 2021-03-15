@@ -1,0 +1,16 @@
+PODS:
+  - ESUtility (0.1.0)
+
+DEPENDENCIES:
+  - ESUtility (from `../`)
+
+EXTERNAL SOURCES:
+  ESUtility:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ESUtility: e9283af043e215685b6b65b30418cdb0f6eb6163
+
+PODFILE CHECKSUM: 2503dce1bb3531a1e00c4d78c1aa95b625ae876f
+
+COCOAPODS: 1.10.1
