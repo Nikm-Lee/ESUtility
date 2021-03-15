@@ -2,10 +2,10 @@ import UIKit
 import AdSupport
 import CoreTelephony
 
-protocol ESDevice : NSObject{
+public protocol ESDevice : NSObject{
     
 }
-public extension ESDevice {
+extension ESDevice {
     
     static var device_uuid : String? {
         return UIDevice.current.identifierForVendor?.uuidString
