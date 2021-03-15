@@ -38,7 +38,7 @@ public protocol payAppInstalled{
 }
 
 extension payAppInstalled{
-    func Installed(_ payApps : String){
+    public func Installed(_ payApps : String){
         let goAppStore = payApps.components(separatedBy: "://")[0]
         var url : URL? = URL(string: "")
         

@@ -8,7 +8,7 @@ public protocol VersionCheck{
     
 }
 extension VersionCheck{
-    var appStoreVersion : String? {
+    public var appStoreVersion : String? {
         var version : String?
         guard let bundleId = Bundle.main.infoDictionary?["CFBundleIdentifier"] as? String else { return nil }
         let STORE_URL = "http://itunes.apple.com/lookup?bundleId=\(bundleId)&country=kr"
@@ -31,11 +31,11 @@ extension VersionCheck{
         return version
     }
     
-    var currentVersion : String?{
+    public var currentVersion : String?{
         return Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
     }
     
-    var isReleaseNewVersion : Bool {
+    public var isReleaseNewVersion : Bool {
         guard let appStoreVersion = appStoreVersion, let currentVersion = currentVersion else {
             print("Error CurrentVersion : \(self.currentVersion) \n appStoreVersion : \(self.appStoreVersion)");
             return false}

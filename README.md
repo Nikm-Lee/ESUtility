@@ -5,9 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/ESUtility.svg?style=flat)](https://cocoapods.org/pods/ESUtility)
 [![Platform](https://img.shields.io/cocoapods/p/ESUtility.svg?style=flat)](https://cocoapods.org/pods/ESUtility)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 
@@ -19,10 +16,17 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'ESUtility'
 ```
-
 ## Author
 
-kmdiabolos@naver.com, gmspell@naver.com
+kmdiabolos@naver.com
+
+## Contents
+```
+VersionCheck : 현재 앱버전과 앱스토어 앱버전 비교
+PayAppInstalled : 스킴 -> PG결제 앱 연결
+ESDevice : IDFA, UUID, Device Size 받기
+ESColor : RGB와 HexCode로 UIColor세팅
+```
 
 ## License
 
