@@ -33,7 +33,7 @@ enum payApp : String{
     
 }
 
-protocol payAppInstalled{
+public protocol payAppInstalled{
     
 }
 

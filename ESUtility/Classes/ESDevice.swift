@@ -5,7 +5,7 @@ import CoreTelephony
 protocol ESDevice : NSObject{
     
 }
-extension ESDevice {
+public extension ESDevice {
     
     static var device_uuid : String? {
         return UIDevice.current.identifierForVendor?.uuidString

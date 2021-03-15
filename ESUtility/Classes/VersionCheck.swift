@@ -4,7 +4,7 @@ import Foundation
 /**
  OUT : isReleaseNewVersion -> Bool (T: 업데이트 해야됨, F: 업데이트 안해도됨)
  */
-protocol VersionCheck{
+public protocol VersionCheck{
     
 }
 extension VersionCheck{
