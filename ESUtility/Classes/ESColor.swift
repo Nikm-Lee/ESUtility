@@ -10,7 +10,7 @@ import UIKit
 
 extension UIColor{
     
-    public static func by(r:Int, g:Int, b:Int, a:CGFloat = 1) -> UIColor{
+    public func by(r:Int, g:Int, b:Int, a:CGFloat = 1) -> UIColor{
         let d = CGFloat(255)
         return UIColor(red: CGFloat(r) / d, green: CGFloat(g) / d, blue: CGFloat(b) / d, alpha: a)
     }
